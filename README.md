@@ -3,19 +3,25 @@ CRUD simples em adminjs
 
 ## Para iniciar o projeto localmente:
 
-### Rode o código abaixo para iniciar um container rodando mongoDB na porta 27017, user = root, pass = root
+### Faça o clone do projeto:
 
-  docker run --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=root mongo
+    git clone git@github.com:rjanovicci/admin-bro-crud.git
 
-### Faça o clone do projeto no seu computador e execute os comandos abaixo:
+### Instale as dependências:
 
     npm install
 
-    npm start
+### Rode o código abaixo para iniciar um container rodando mongoDB na porta 27017, user = root, pass = root
+
+  docker run --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=root mongo
     
 #### (Caso não esteja rodando o mongo localmente, altere o endereço na linha 44 do arquivo `admin.js`)
 
 ![Screenshot from 2022-04-02 19-41-58](https://user-images.githubusercontent.com/83842945/161403810-b559737a-ba7e-4ace-9fe4-eda796100df2.png)
+
+### Para rodar o projeto, execute:
+
+    npm start
 
 ### Acesse: http://localhost:5500/admin
 
