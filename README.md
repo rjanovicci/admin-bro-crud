@@ -23,4 +23,8 @@ CRUD simples em adminjs
 
 ![Screenshot from 2022-04-02 19-27-28](https://user-images.githubusercontent.com/83842945/161403543-29470f92-535a-4bef-bbd5-3897dc45d241.png)
 
+### E aqui podemos criar, buscar (com ou sem filtros), editar e deletar nossos dados.
+
+![Screenshot from 2022-04-02 19-27-53](https://user-images.githubusercontent.com/83842945/161403864-b47b46b1-b94c-4de3-bc9d-d134e46aaf4f.png)
+
 #### https://adminjs.co/
