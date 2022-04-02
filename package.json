@@ -1,0 +1,20 @@
+{
+  "name": "simpleadminbrocrud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "admin.js",
+  "scripts": {
+    "start": "node admin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/mongoose": "^1.1.0",
+    "admin-bro": "^4.0.1",
+    "express": "^4.17.3",
+    "express-formidable": "^1.2.0",
+    "mongoose": "^6.2.9"
+  }
+}
