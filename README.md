@@ -13,7 +13,7 @@ CRUD simples em adminjs
 
 ### Rode o código abaixo para iniciar um container rodando mongoDB na porta 27017, user = root, pass = root
 
-  docker run --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=root mongo
+    docker run --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=root mongo
     
 #### (Caso não esteja rodando o mongo localmente, altere o endereço na linha 44 do arquivo `admin.js`)
 
